@@ -13078,7 +13078,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div style="color:#1DB954;  font-size: 30px; text-align:center;  font-weight: bold;">  Spotify songs </div><p>Author: Pierre Mulliez <br>
-Last edited: 18/02/2021</p>
+Last edited: 17/02/2021</p>
 <p><div ><img src="CSS_files/spot.png" width=600 height=400  align="center"></div></p>
 
 </div>
@@ -13631,7 +13631,7 @@ freq           407      78     505    3025
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#sorted by artist that sang the most songs  </span>
@@ -13689,19 +13689,19 @@ only showing top 15 rows
 +--------------------+------------------+-----+
 |      [&#39;Juice WRLD&#39;]|              75.0|   27|
 |   [&#39;Ariana Grande&#39;]|              72.0|   43|
-|             [&#39;BTS&#39;]|              71.0|   41|
 |     [&#39;Post Malone&#39;]|              71.0|   26|
+|             [&#39;BTS&#39;]|              71.0|   41|
 |      [&#39;Ed Sheeran&#39;]|              69.0|   28|
 |   [&#39;One Direction&#39;]|              67.0|   59|
 |              [&#39;NF&#39;]|              66.0|   27|
-|[&#39;Twenty One Pilo...|              65.0|   35|
 |      [&#39;The Weeknd&#39;]|              65.0|   32|
+|[&#39;Twenty One Pilo...|              65.0|   35|
+|         [&#39;J. Cole&#39;]|              64.0|   36|
 |      [&#39;Katy Perry&#39;]|              64.0|   28|
 |   [&#39;Morgan Wallen&#39;]|              64.0|   59|
-|         [&#39;J. Cole&#39;]|              64.0|   36|
 |         [&#39;Rihanna&#39;]|              64.0|   36|
 |           [&#39;Drake&#39;]|              63.0|   73|
-|        [&#39;Coldplay&#39;]|              62.0|   36|
+|   [&#39;Michael Bublé&#39;]|              62.0|   44|
 +--------------------+------------------+-----+
 only showing top 15 rows
 
@@ -13767,17 +13767,17 @@ Most explicit artist with at least 10 recorded songs</p>
 |           [&#39;Logic&#39;]|            1.0|   14|
 |[&#39;Todd Glass&#39;, &#39;B...|            1.0|   31|
 |         [&#39;DJ Quik&#39;]|            1.0|   15|
-|          [&#39;K-Rino&#39;]|            1.0|   13|
-|    [&#39;Trippie Redd&#39;]|            1.0|   14|
-|     [&#39;Nicki Minaj&#39;]|            1.0|   16|
-|[&#39;South Park Mexi...|            1.0|   23|
 |        [&#39;Agonoize&#39;]|            1.0|   39|
+|        [&#39;TON Jayy&#39;]|            1.0|   20|
+|          [&#39;K-Rino&#39;]|            1.0|   13|
+|[&#39;South Park Mexi...|            1.0|   23|
+|    [&#39;Trippie Redd&#39;]|            1.0|   14|
 |  [&#39;The Skinflicks&#39;]|            1.0|   11|
+|  [&#39;Kendrick Lamar&#39;]|            1.0|   28|
 |       [&#39;Geto Boys&#39;]|            1.0|   14|
 |[&#39;Эрнест Хемингуэй&#39;]|            1.0|  850|
 |       [&#39;Mobb Deep&#39;]|            1.0|   14|
 |[&#39;Эрих Мария Рема...|            1.0|  739|
-|  [&#39;Kendrick Lamar&#39;]|            1.0|   28|
 +--------------------+---------------+-----+
 only showing top 15 rows
 
@@ -13800,7 +13800,7 @@ Artist with 10 songs minimum</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dance</span> <span class="o">=</span> <span class="n">sample_spotify</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;artists&quot;</span><span class="p">)</span>\
@@ -13831,8 +13831,8 @@ Artist with 10 songs minimum</p>
 |             artists|average_dance_prc|songs|artists_explicit_avg|artists_popularity_avg|
 +--------------------+-----------------+-----+--------------------+----------------------+
 |       [&#39;Too $hort&#39;]|             88.0|   19|   0.631578947368421|     39.21052631578947|
-|     [&#39;2 LIVE CREW&#39;]|             88.0|   16|              0.9375|               35.3125|
 |   [&#39;Sir Mix-A-Lot&#39;]|             88.0|   11|  0.8181818181818182|     38.09090909090909|
+|     [&#39;2 LIVE CREW&#39;]|             88.0|   16|              0.9375|               35.3125|
 |      [&#39;Run–D.M.C.&#39;]|             86.0|   21|                 0.0|     37.38095238095238|
 |[&#39;Mi Banda El Mex...|             85.0|   14|                 0.0|    45.785714285714285|
 |  [&#39;Gregory Isaacs&#39;]|             85.0|   18|                 0.0|    37.166666666666664|
@@ -13844,7 +13844,7 @@ Artist with 10 songs minimum</p>
 |             [&#39;UGK&#39;]|             82.0|   13| 0.46153846153846156|     36.53846153846154|
 |   [&#39;Midnight Star&#39;]|             82.0|   11|                 0.0|     35.72727272727273|
 |        [&#39;Aventura&#39;]|             81.0|   27|                 0.0|    57.592592592592595|
-| [&#39;Digable Planets&#39;]|             81.0|   11|                 0.0|     40.18181818181818|
+|&#34;[&#39;Evelyn &#34;&#34;Champ...|             81.0|   14|                 0.0|                  35.5|
 +--------------------+-----------------+-----+--------------------+----------------------+
 only showing top 15 rows
 
@@ -13915,8 +13915,8 @@ only showing top 15 rows
 |            Overture|   32|          1921|     2004|
 |        O Holy Night|   29|          1945|     1999|
 |        Silver Bells|   28|          1945|     2011|
-|           Ave Maria|   27|          1926|     2015|
 |My Only Wish (Thi...|   27|          2000|     2019|
+|           Ave Maria|   27|          1926|     2015|
 +--------------------+-----+--------------+---------+
 only showing top 15 rows
 
@@ -13977,20 +13977,20 @@ Song with 75% popularity minimum</p>
 <pre>+--------------------+-------------+----------------+--------------------+-------------+
 |                name|max_dance_prc|number of retake|         last_artist|song_explicit|
 +--------------------+-------------+----------------+--------------------+-------------+
-|   Funky Cold Medina|         99.0|               1|        [&#39;Tone-Loc&#39;]|            0|
 |Funky Cold Medina...|         99.0|               1|        [&#39;Tone-Loc&#39;]|            0|
 |             Go Girl|         99.0|               1|[&#39;Pitbull&#39;, &#39;Trin...|            1|
+|   Funky Cold Medina|         99.0|               1|        [&#39;Tone-Loc&#39;]|            0|
 |  I Need You Tonight|         98.0|               3|  [&#39;Punkin Machine&#39;]|            1|
-|Ice Ice Baby - Ra...|         98.0|               1|     [&#39;Vanilla Ice&#39;]|            0|
-|   Barney Theme Song|         98.0|               1|          [&#39;Barney&#39;]|            0|
-|  Dancing in My Room|         98.0|               1|        [&#39;347aidan&#39;]|            1|
 |      Black Is Black|         98.0|               2|      [&#39;Los Bravos&#39;]|            0|
+|       Give It To Me|         98.0|               2|[&#39;Timbaland&#39;, &#39;Ju...|            1|
+|   Barney Theme Song|         98.0|               1|          [&#39;Barney&#39;]|            0|
+|            Teachers|         98.0|               1|       [&#39;Daft Punk&#39;]|            0|
+|Ice Ice Baby - Ra...|         98.0|               1|     [&#39;Vanilla Ice&#39;]|            0|
+|             Beepers|         98.0|               1|   [&#39;Sir Mix-A-Lot&#39;]|            0|
+|  Dancing in My Room|         98.0|               1|        [&#39;347aidan&#39;]|            1|
+|Cha Cha Slide - O...|         98.0|               1|       [&#39;DJ Casper&#39;]|            0|
 |        Ice Ice Baby|         98.0|               1|     [&#39;Vanilla Ice&#39;]|            0|
 | Binibi Rocha - Live|         98.0|               1|       [&#39;Andrew E.&#39;]|            0|
-|       Give It To Me|         98.0|               2|[&#39;Timbaland&#39;, &#39;Ju...|            1|
-|            Teachers|         98.0|               1|       [&#39;Daft Punk&#39;]|            0|
-|             Beepers|         98.0|               1|   [&#39;Sir Mix-A-Lot&#39;]|            0|
-|Cha Cha Slide - O...|         98.0|               1|       [&#39;DJ Casper&#39;]|            0|
 |            Tooty Ta|         98.0|               1|[&#39;Dr. Jean Feldman&#39;]|            0|
 +--------------------+-------------+----------------+--------------------+-------------+
 only showing top 15 rows
@@ -14039,21 +14039,21 @@ only showing top 15 rows
 <pre>+--------------------+-----------------+-----+--------------------+----------------------+--------------------+-------------+-------------+
 |             artists|average_dance_prc|songs|artists_explicit_avg|artists_popularity_avg|                name|max_dance_prc|song_explicit|
 +--------------------+-----------------+-----+--------------------+----------------------+--------------------+-------------+-------------+
-|   [&#39;Sir Mix-A-Lot&#39;]|             88.0|   11|  0.8181818181818182|     38.09090909090909|             Beepers|         98.0|            0|
 |       [&#39;Daft Punk&#39;]|             71.0|   31|                 0.0|    53.903225806451616|            Teachers|         98.0|            0|
+|   [&#39;Sir Mix-A-Lot&#39;]|             88.0|   11|  0.8181818181818182|     38.09090909090909|             Beepers|         98.0|            0|
 |    [&#39;Selena Gomez&#39;]|             69.0|   12|                 0.0|     64.41666666666667|            Bad Liar|         97.0|            0|
 |      [&#39;Run–D.M.C.&#39;]|             86.0|   21|                 0.0|     37.38095238095238|         It&#39;s Tricky|         97.0|            0|
-|&#34;[&#39;Evelyn &#34;&#34;Champ...|             81.0|   14|                 0.0|                  35.5|Betcha She Don&#39;t ...|         97.0|            0|
-|       [&#39;Sam Cooke&#39;]|             47.0|  141|                 0.0|      29.4822695035461|                Pray|         97.0|            0|
-|     [&#39;2 LIVE CREW&#39;]|             88.0|   16|              0.9375|               35.3125|         One And One|         97.0|            1|
 |            [&#39;UB40&#39;]|             78.0|   25|                 0.0|                  45.2|                Baby|         97.0|            1|
-|    [&#39;Gloria Trevi&#39;]|             76.0|   15|                 0.0|                  48.0|El Último Beso - ...|         97.0|            0|
-|          [&#39;Prince&#39;]|             69.0|   68|  0.1323529411764706|     36.35294117647059|D.M.S.R. - 2019 R...|         97.0|            0|
-|     [&#39;2 LIVE CREW&#39;]|             88.0|   16|              0.9375|               35.3125|We Want Some Pxss...|         97.0|            1|
 |   [&#39;Sir Mix-A-Lot&#39;]|             88.0|   11|  0.8181818181818182|     38.09090909090909|               Swass|         97.0|            1|
+|     [&#39;2 LIVE CREW&#39;]|             88.0|   16|              0.9375|               35.3125|         One And One|         97.0|            1|
+|          [&#39;Prince&#39;]|             69.0|   68|  0.1323529411764706|     36.35294117647059|D.M.S.R. - 2019 R...|         97.0|            0|
+|       [&#39;Sam Cooke&#39;]|             47.0|  141|                 0.0|      29.4822695035461|                Pray|         97.0|            0|
+|&#34;[&#39;Evelyn &#34;&#34;Champ...|             81.0|   14|                 0.0|                  35.5|Betcha She Don&#39;t ...|         97.0|            0|
+|    [&#39;Gloria Trevi&#39;]|             76.0|   15|                 0.0|                  48.0|El Último Beso - ...|         97.0|            0|
+|     [&#39;2 LIVE CREW&#39;]|             88.0|   16|              0.9375|               35.3125|We Want Some Pxss...|         97.0|            1|
 |    [&#39;Gloria Trevi&#39;]|             76.0|   15|                 0.0|                  48.0|         Pelo Suelto|         97.0|            0|
 |[&#39;The Ames Brothe...|             46.0|   13|                 0.0|                   9.0|    Around the World|         96.0|            0|
-|  [&#39;Kendrick Lamar&#39;]|             63.0|   28|                 1.0|    61.357142857142854|Blow My High (Mem...|         96.0|            1|
+|      [&#39;Run–D.M.C.&#39;]|             86.0|   21|                 0.0|     37.38095238095238|   You Talk Too Much|         96.0|            0|
 +--------------------+-----------------+-----+--------------------+----------------------+--------------------+-------------+-------------+
 only showing top 15 rows
 
@@ -14262,26 +14262,26 @@ only showing top 60 rows
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>                      artists  average_dance_prc  songs  artists_explicit_avg  \
-103               [&#39;Outkast&#39;]               72.0     39              0.743590   
-104               [&#39;The Who&#39;]               48.0    161              0.006211   
-105       [&#39;Ornette Coleman&#39;]               55.0     21              0.000000   
-106              [&#39;The Cure&#39;]               56.0    128              0.023438   
-107  [&#39;Bone Thugs-N-Harmony&#39;]               73.0     24              0.875000   
+<pre>                 artists  average_dance_prc  songs  artists_explicit_avg  \
+103        [&#39;Ry Cooder&#39;]               56.0     12              0.000000   
+104  [&#39;Ella Fitzgerald&#39;]               41.0    263              0.000000   
+105      [&#39;Stan Rogers&#39;]               57.0     12              0.000000   
+106               [&#39;白光&#39;]               41.0     16              0.000000   
+107      [&#39;David Bowie&#39;]               49.0    213              0.004695   
 
-     artists_popularity_avg                                     name  \
-103               49.666667                              Ms. Jackson   
-104               29.906832  Anyway, Anyhow, Anywhere - Mono Version   
-105               17.476190             Mind And Time - Instrumental   
-106               31.695312             The Snakepit - 2006 Remaster   
-107               45.125000                             Buddah Lovaz   
+     artists_popularity_avg                                name  \
+103               36.083333                     Available Space   
+104               22.057252  Let&#39;s Take A Walk Around The Block   
+105               33.250000            Rolling Down to Old Maui   
+106                1.812500                               東山一把情   
+107               35.159624           Amsterdam - 2015 Remaster   
 
      max_dance_prc song_explicit  ID  
-103           84.0             1   0  
-104           34.0             0   0  
-105           48.0             0   0  
-106           43.0             0   0  
-107           69.0             1   0  
+103           57.0             0   0  
+104           52.0             0   0  
+105           57.0             0   0  
+106           48.0             0   0  
+107           51.0             0   0  
 </pre>
 </div>
 </div>
@@ -14425,62 +14425,62 @@ only showing top 60 rows
   </thead>
   <tbody>
     <tr>
-      <th>897</th>
-      <td>['Pixies']</td>
-      <td>49.0</td>
-      <td>45</td>
-      <td>0.066667</td>
-      <td>42.311111</td>
-      <td>Velouria</td>
-      <td>49.0</td>
-      <td>0</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>898</th>
-      <td>['Wham!']</td>
-      <td>73.0</td>
-      <td>25</td>
-      <td>0.000000</td>
-      <td>47.600000</td>
-      <td>Last Christmas - Pudding Mix</td>
-      <td>72.0</td>
-      <td>0</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>899</th>
-      <td>['Cuco Sánchez']</td>
-      <td>52.0</td>
-      <td>33</td>
-      <td>0.000000</td>
-      <td>14.181818</td>
-      <td>Te Amaré Vida Mía</td>
-      <td>48.0</td>
-      <td>0</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>900</th>
-      <td>['Elliott Smith']</td>
-      <td>51.0</td>
-      <td>31</td>
-      <td>0.064516</td>
-      <td>40.645161</td>
-      <td>The White Lady Loves You More</td>
-      <td>35.0</td>
-      <td>0</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>901</th>
-      <td>['張琍敏']</td>
-      <td>44.0</td>
-      <td>17</td>
-      <td>0.000000</td>
-      <td>4.470588</td>
-      <td>三年</td>
+      <th>953</th>
+      <td>['Judas Priest']</td>
+      <td>38.0</td>
+      <td>92</td>
+      <td>0.000</td>
+      <td>36.000000</td>
+      <td>Fire Burns Below</td>
       <td>29.0</td>
+      <td>0</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>954</th>
+      <td>['Louis Prima', 'Keely Smith']</td>
+      <td>63.0</td>
+      <td>11</td>
+      <td>0.000</td>
+      <td>14.363636</td>
+      <td>Luigi</td>
+      <td>73.0</td>
+      <td>0</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>955</th>
+      <td>['A Perfect Circle']</td>
+      <td>51.0</td>
+      <td>16</td>
+      <td>0.125</td>
+      <td>53.187500</td>
+      <td>Orestes</td>
+      <td>46.0</td>
+      <td>0</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>956</th>
+      <td>['Bob Dylan']</td>
+      <td>51.0</td>
+      <td>325</td>
+      <td>0.000</td>
+      <td>29.544615</td>
+      <td>Most Likely You Go Your Way (And I'll Go Mine)...</td>
+      <td>34.0</td>
+      <td>0</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>957</th>
+      <td>['Elvis Presley']</td>
+      <td>50.0</td>
+      <td>334</td>
+      <td>0.000</td>
+      <td>34.416168</td>
+      <td>Welcome to My World - Live at The Honolulu Int...</td>
+      <td>21.0</td>
       <td>0</td>
       <td>9</td>
     </tr>
@@ -14568,16 +14568,16 @@ only showing top 60 rows
 <pre>+--------------------+-----------------+-------+--------------------+------------------+----+
 |           artists_u|avgdanceability_u|songs_u|                name|Songdanceability_u|ID_u|
 +--------------------+-----------------+-------+--------------------+------------------+----+
-|       [&#39;Los Bukis&#39;]|             64.0|     76|Necesito Una Comp...| 57.99999999999999|   0|
-|     [&#39;Umm Kulthum&#39;]|             35.0|    172|  Alf Leila We Leila|              40.0|   0|
-|[&#39;The Rolling Sto...|             54.0|    304|Miss You - Remast...|              80.0|   0|
-|   [&#39;The Offspring&#39;]|             42.0|     34|         Half-Truism|              43.0|   0|
-|[&#39;Electric Light ...|             46.0|     77|From the End of t...| 56.00000000000001|   0|
-|       [&#39;The Byrds&#39;]|             47.0|     67|     Natural Harmony|              40.0|   0|
-|      [&#39;Ted Nugent&#39;]|             42.0|     33| Writing on the Wall|              31.0|   0|
-|[&#39;Francisco Canaro&#39;]|             67.0|    629|Pura Parada - Ins...|              74.0|   0|
-|     [&#39;Marvin Gaye&#39;]|             54.0|    136|Baby Don&#39;t You Do It|              59.0|   0|
-|     [&#39;Lindisfarne&#39;]|56.00000000000001|     28|Jackhammer Blues ...|              73.0|   0|
+|       [&#39;Metallica&#39;]|             37.0|    155|Nothing Else Matt...|28.000000000000004|   0|
+|[&#39;Armin van Buuren&#39;]|             50.0|    152|A State Of Trance...|              80.0|   0|
+|     [&#39;The Beatles&#39;]|             52.0|    289|Let It Be - Remas...|              45.0|   0|
+|[&#39;Joan Jett &amp; The...|             52.0|     16|        Fake Friends|              49.0|   0|
+|    [&#39;Ricky Skaggs&#39;]|             59.0|     15|Don&#39;t Get Above Y...|              63.0|   0|
+|[&#39;Billy Currington&#39;]|             64.0|     11|    People Are Crazy|              65.0|   0|
+|    [&#39;Frankie Ruiz&#39;]|             72.0|     24|          Y No Puedo|              61.0|   0|
+|  [&#39;Linda Ronstadt&#39;]|             49.0|     61|Los Laureles (The...|              43.0|   0|
+|[&#39;The Rolling Sto...|             54.0|    304|    Bitch - 2009 Mix|              66.0|   0|
+|[&#39;Amirbai Karnata...|56.00000000000001|     72|Milke Bichhad Gai...|              69.0|   0|
 +--------------------+-----------------+-------+--------------------+------------------+----+
 only showing top 10 rows
 
@@ -14708,211 +14708,11 @@ only showing top 10 rows
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;bound method NDFrame.head of    id                                              user0  \
-0   0                               Girlfriend Is Better   
-1   1                                    Five Spot Blues   
-2   2                                            Takeela   
-3   3  Eine kurze Weltgeschichte für junge Leser: Von...   
-4   4                        Ain&#39;t No Price on Happiness   
-5   5           106 Beats That - 2006 Remastered Version   
-6   6                    Never as Good as the First Time   
-7   7                                             Crisis   
-8   8                                         Lucky Star   
-9   9                     Doo Wa Ditty - Blow That Thing   
+<pre>&lt;bound method NDFrame.head of Empty DataFrame
+Columns: [id, user0, user0, user1, user1, user2, user2, user3, user3, user4, user4, user5, user5, user6, user6, user7, user7, user8, user8, user9, user9]
+Index: []
 
-                                      user0  \
-0                         [&#39;Talking Heads&#39;]   
-1                       [&#39;Thelonious Monk&#39;]   
-2                         [&#39;Kenny Burrell&#39;]   
-3  [&#39;Ernst H. Gombrich&#39;, &#39;Christoph Waltz&#39;]   
-4                          [&#39;The Spinners&#39;]   
-5                                  [&#39;Wire&#39;]   
-6                                  [&#39;Sade&#39;]   
-7              [&#39;Bob Marley &amp; The Wailers&#39;]   
-8                               [&#39;Madonna&#39;]   
-9                                  [&#39;Zapp&#39;]   
-
-                                               user1  \
-0                                             I Wish   
-1  You&#39;re Now Tuning Into 66.6 FM With DJ Rapture...   
-2                            If You Know Like I Know   
-3                                   Nicotine &amp; Gravy   
-4                            She Brakes for Rainbows   
-5                              I&#39;m Good at Being Bad   
-6                Little Woman Love - Remastered 2012   
-7                            Wham! (Re-Bop-Boom-Bam)   
-8          Long Gone Lonesome Blues - Single Version   
-9                                        MLF Lullaby   
-
-                                   user1  \
-0                      [&#39;Stevie Wonder&#39;]   
-1                        [&#39;$uicideBoy$&#39;]   
-2                  [&#39;Teddy Pendergrass&#39;]   
-3                               [&#39;Beck&#39;]   
-4                     &#34;[&#34;&#34;The B-52&#39;s&#34;&#34;]&#34;   
-5                                [&#39;TLC&#39;]   
-6  [&#39;Paul McCartney&#39;, &#39;Linda McCartney&#39;]   
-7                   [&#39;Jimmie Lunceford&#39;]   
-8                      [&#39;Hank Williams&#39;]   
-9                         [&#39;Tom Lehrer&#39;]   
-
-                                        user2  \
-0                            No Woman, No Cry   
-1                                  El Canalla   
-2                              Animal Kingdom   
-3                               Love Out Loud   
-4                               Free Girl Now   
-5  You Never Cry Like a Lover - 2013 Remaster   
-6                  Just Another Woman In Love   
-7                          This Is My Promise   
-8              Jumpin&#39; At The Woodside - Live   
-9                  Big River - Stereo Version   
-
-                                 user2  \
-0                           [&#39;Fugees&#39;]   
-1                     [&#39;Rocío Dúrcal&#39;]   
-2                     [&#39;Meat Puppets&#39;]   
-3               [&#39;Earl Thomas Conley&#39;]   
-4  [&#39;Tom Petty and the Heartbreakers&#39;]   
-5                           [&#39;Eagles&#39;]   
-6                      [&#39;Anne Murray&#39;]   
-7                  [&#39;The Temptations&#39;]   
-8                      [&#39;Count Basie&#39;]   
-9                      [&#39;Johnny Cash&#39;]   
-
-                                               user3  \
-0                            El Rengo Del Gallo Giro   
-1                                    La Chiva Blanca   
-2                        Christmas Through Your Eyes   
-3                             A HOPE FROM SAD STREET   
-4                 Jesus Is The Reason For The Season   
-5                                   Jesus to a Child   
-6                                        So Far Away   
-7            Kapitel 363 - Der Page und die Herzogin   
-8  La República en España Corrido Parte I - Remas...   
-9                              There&#39;s A Small Hotel   
-
-                                 user3                                user4  \
-0             [&#39;Los Tigres Del Norte&#39;]         Sledgehammer - 2012 Remaster   
-1                       [&#39;Guandulito&#39;]                              Aléjate   
-2                   [&#39;Gloria Estefan&#39;]                      Cherish the Day   
-3                             [&#39;Anri&#39;]               Task Force - Live 2016   
-4      [&#39;Kirk Franklin&#39;, &#39;The Family&#39;]                      Ghetto A.B.C.&#39;s   
-5                   [&#39;George Michael&#39;]                                 Hope   
-6                     [&#39;Dire Straits&#39;]  Maps (Cardio + Running Workout Mix)   
-7  [&#39;Georgette Heyer&#39;, &#39;Irina Salkow&#39;]          The Seashores Of Old Mexico   
-8                [&#39;Banda Republicana&#39;]                              Oh Shit   
-9                        [&#39;Peggy Lee&#39;]              Bigger Than the Beatles   
-
-   ...                                              user5  \
-0  ...                            Madman Across The Water   
-1  ...                                        San Jacinto   
-2  ...                                      Still a Nigga   
-3  ...                  Dear Madam Barnum - 2001 Remaster   
-4  ...            Kapitel 272 - Der Page und die Herzogin   
-5  ...  You Can&#39;t Walk In Your Sleep (If You Can&#39;t Sleep)   
-6  ...  &#34;Meet Me Half Way - From &#34;&#34;Over The Top&#34;&#34; Soun...   
-7  ...                              Santa, I&#39;m Right Here   
-8  ...                       Freeway of Love - Single Mix   
-9  ...                           I Was Coming Home to You   
-
-                                 user5  \
-0                       [&#39;Elton John&#39;]   
-1                    [&#39;Peter Gabriel&#39;]   
-2                           [&#39;Eazy-E&#39;]   
-3                              [&#39;XTC&#39;]   
-4  [&#39;Georgette Heyer&#39;, &#39;Irina Salkow&#39;]   
-5                  &#34;[&#34;&#34;The Go-Go&#39;s&#34;&#34;]&#34;   
-6                    [&#39;Kenny Loggins&#39;]   
-7                       [&#39;Toby Keith&#39;]   
-8                  [&#39;Aretha Franklin&#39;]   
-9                   [&#39;Lefty Frizzell&#39;]   
-
-                                        user6  \
-0                    The Night I Fell in Love   
-1                                 Tell Me Who   
-2                          I&#39;d Still Be There   
-3                          Just Like an Angel   
-4                           I Found That Girl   
-5                              Brand New Funk   
-6                                     Warm Up   
-7                        Feelin&#39; The Same Way   
-8              Little Man - LP/Single Version   
-9  Concrete Jungle - Live At Ahoy Hallen/1978   
-
-                                  user6  \
-0                   [&#39;Luther Vandross&#39;]   
-1                [&#39;The Isley Brothers&#39;]   
-2                       [&#39;Johnny Cash&#39;]   
-3                    [&#39;Modern Talking&#39;]   
-4                     [&#39;The Jackson 5&#39;]   
-5  [&#39;DJ Jazzy Jeff &amp; The Fresh Prince&#39;]   
-6                                [&#39;NF&#39;]   
-7                       [&#39;Norah Jones&#39;]   
-8                      [&#39;Sonny &amp; Cher&#39;]   
-9          [&#39;Bob Marley &amp; The Wailers&#39;]   
-
-                                          user7  \
-0                                 Parker&#39;s Band   
-1                           State of the Nation   
-2                               ¿Qué Horas Son?   
-3  Mr. Bojangles - Original Mono Single Version   
-4                                         Crazy   
-5                        Something The Boy Said   
-6                                       Pavanne   
-7                 Liebe Macht blind - Live 2016   
-8           Take Me Back to My Boots and Saddle   
-9                                      Mary Lee   
-
-                           user7                               user8  \
-0                 [&#39;Steely Dan&#39;]                          A to the K   
-1                  [&#39;New Order&#39;]                  Quién Piensa En Ti   
-2                [&#39;Grupo Libra&#39;]  Love Without Anger - 2010 Remaster   
-3          [&#39;Jerry Jeff Walker&#39;]                You&#39;re so Good to Me   
-4              [&#39;Willie Nelson&#39;]               Don&#39;t Forget to Dance   
-5                      [&#39;Sting&#39;]        Facts (Charlie Heat Version)   
-6                [&#39;Ahmad Jamal&#39;]     Hollywood (Africa) - Remastered   
-7                [&#39;The Busters&#39;]   State Of Grace - Acoustic Version   
-8  &#34;[&#34;&#34;Screamin&#39; Jay Hawkins&#34;&#34;]&#34;                           Cisco Kid   
-9    [&#39;Los Traileros Del Norte&#39;]                        Macka Splaff   
-
-                       user8  \
-0           [&#39;Cypress Hill&#39;]   
-1   [&#39;Mi Banda El Mexicano&#39;]   
-2                   [&#39;DEVO&#39;]   
-3        [&#39;Curtis Mayfield&#39;]   
-4              [&#39;The Kinks&#39;]   
-5             [&#39;Kanye West&#39;]   
-6  [&#39;Red Hot Chili Peppers&#39;]   
-7           [&#39;Taylor Swift&#39;]   
-8                [&#39;Sublime&#39;]   
-9            [&#39;Steel Pulse&#39;]   
-
-                                               user9  \
-0                                     Triste Navidad   
-1                 Blues In Maude&#39;s Flat - Remastered   
-2                              The World Is a Ghetto   
-3                              Baby, I Done Got Wise   
-4                                      Come Tomorrow   
-5                       Black Limousine - Remastered   
-6  Pennies from Heaven (with Teddy Wilson &amp; His O...   
-7                               On Christmas Morning   
-8                                     Till It Shines   
-9                                            shut up   
-
-                                user9  
-0                      [&#39;Rigo Tovar&#39;]  
-1                     [&#39;Grant Green&#39;]  
-2                       [&#39;Geto Boys&#39;]  
-3                    [&#39;Muddy Waters&#39;]  
-4                [&#39;Townes Van Zandt&#39;]  
-5              [&#39;The Rolling Stones&#39;]  
-6  [&#39;Billie Holiday&#39;, &#39;Teddy Wilson&#39;]  
-7                           [&#39;Raffi&#39;]  
-8                       [&#39;Bob Seger&#39;]  
-9                   [&#39;Ariana Grande&#39;]  
-
-[10 rows x 21 columns]&gt;</pre>
+[0 rows x 21 columns]&gt;</pre>
 </div>
 
 </div>
@@ -14986,48 +14786,48 @@ only showing top 10 rows
 
 <div class="output_text output_subarea output_execute_result">
 <pre>&lt;bound method NDFrame.head of     id                                              user0  \
-0    0                                           Don&#39;t Go   
-1    1                                          Barrytown   
-2    2  Why Don&#39;t We Do It In The Road? - Remastered 2009   
-3    3                                             I Wish   
-4    4      The Ballad Of John And Yoko - Remastered 2015   
-5    5                                             Why Me   
-6    6                                 Whitey on the Moon   
-7    7                               Gimme Shelter - Mono   
-8    8                                      Lotus Blossom   
-9    9             Rebel Music - Live At Ahoy Hallen/1978   
-10  10                Slow and Easy (a.k.a. Lawless Mike)   
-11  11                     Bob Keane Intro - Live, Side 1   
-12  12                                           Stitches   
-13  13                       Take It Easy - 2006 Remaster   
-14  14                                      The Nightmare   
-15  15                            Little Cowboy - Reprise   
-16  16                                    Breakin&#39; Dishes   
-17  17                              Baby, I Done Got Wise   
-18  18                      Plâng trei corzi de balalaică   
-19  19                              Children Of The Night   
+0    0               The Seventh Stranger - 2010 Remaster   
+1    1                                          Housework   
+2    2  The Cowboy In The Continental Suit - Single Ve...   
+3    3                                A Mentir A La Calle   
+4    4                                     El Amor Soñado   
+5    5                                                Ego   
+6    6                                        Mississippi   
+7    7                                   Oh Why? - Take 9   
+8    8                    Black Magic Woman - 2018 Master   
+9    9                                      No More Dream   
+10  10                                Cachito - Unplugged   
+11  11                                        I&#39;m No Good   
+12  12                                          We Danced   
+13  13                                          You And I   
+14  14                               Free - 2002 Remaster   
+15  15               Take Me to the River - 2005 Remaster   
+16  16                       If I Don&#39;t Love You This Way   
+17  17   Atlanta Blues (Make Me One Pallet On Your Floor)   
+18  18                                         Afortunado   
+19  19                                Best Of Both Worlds   
 
                            user0  
-0                        [&#39;Yaz&#39;]  
-1                 [&#39;Steely Dan&#39;]  
-2                [&#39;The Beatles&#39;]  
-3              [&#39;Stevie Wonder&#39;]  
-4                [&#39;The Beatles&#39;]  
-5         [&#39;Kris Kristofferson&#39;]  
-6            [&#39;Gil Scott-Heron&#39;]  
-7         [&#39;The Rolling Stones&#39;]  
-8                        [&#39;War&#39;]  
-9   [&#39;Bob Marley &amp; The Wailers&#39;]  
-10  [&#39;The Dave Brubeck Quartet&#39;]  
-11            [&#39;Ritchie Valens&#39;]  
-12              [&#39;Shawn Mendes&#39;]  
-13              [&#39;Travis Tritt&#39;]  
-14              [&#39;Stevie Nicks&#39;]  
-15             [&#39;Harry Nilsson&#39;]  
-16                   [&#39;Rihanna&#39;]  
-17              [&#39;Muddy Waters&#39;]  
-18           [&#39;Cristian Vasile&#39;]  
-19                  [&#39;Survivor&#39;]  &gt;</pre>
+0                [&#39;Duran Duran&#39;]  
+1             &#34;[&#34;&#34;The B-52&#39;s&#34;&#34;]&#34;  
+2              [&#39;Marty Robbins&#39;]  
+3                [&#39;Grupo Libra&#39;]  
+4     [&#39;Los Tucanes De Tijuana&#39;]  
+5                    [&#39;Beyoncé&#39;]  
+6   [&#39;The Charlie Daniels Band&#39;]  
+7             [&#39;Little Richard&#39;]  
+8              [&#39;Fleetwood Mac&#39;]  
+9                        [&#39;BTS&#39;]  
+10                      [&#39;Maná&#39;]  
+11             [&#39;Brooks &amp; Dunn&#39;]  
+12              [&#39;Brad Paisley&#39;]  
+13                 [&#39;Lady Gaga&#39;]  
+14                   [&#39;Chicago&#39;]  
+15             [&#39;Talking Heads&#39;]  
+16             [&#39;The Jackson 5&#39;]  
+17           [&#39;Louis Armstrong&#39;]  
+18            [&#39;Joan Sebastian&#39;]  
+19             [&#39;Robert Palmer&#39;]  &gt;</pre>
 </div>
 
 </div>
@@ -15057,7 +14857,7 @@ only showing top 10 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Create a limited datasets with the most famous artist with feature used int he most famous artist analysis further up </span>
@@ -15137,7 +14937,7 @@ only showing top 40 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#multiple creation of dataframe list to pivot the artist column: </span>
@@ -15448,7 +15248,7 @@ only showing top 20 rows
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[73]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -15463,12 +15263,48 @@ only showing top 20 rows
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div style="color:#1DB954;  font-size: 30px; text-align:center;  font-weight: bold; background-color:black; padding:12px">     Predict popularity   </div>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.ml.feature</span> <span class="kn">import</span> <span class="n">StringIndexer</span>
+<span class="n">sample_spotify</span> <span class="o">=</span> <span class="n">sample_spotify</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;any&#39;</span><span class="p">)</span>
+<span class="n">regression_df</span> <span class="o">=</span> <span class="n">sample_spotify</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">&quot;popularity&quot;</span><span class="p">,</span> <span class="n">when</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">&quot;popularity&quot;</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span>
+                                <span class="o">.</span><span class="n">otherwise</span><span class="p">(</span><span class="mf">0.0</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.ml.feature</span> <span class="kn">import</span> <span class="n">VectorAssembler</span>
+<span class="kn">from</span> <span class="nn">pyspark.ml.feature</span> <span class="kn">import</span> <span class="n">OneHotEncoder</span>
+<span class="n">required_features</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;acousticness&#39;</span><span class="p">,</span> <span class="s1">&#39;danceability&#39;</span><span class="p">,</span> <span class="s1">&#39;duration_ms&#39;</span><span class="p">,</span> <span class="s1">&#39;energy&#39;</span><span class="p">,</span> <span class="s1">&#39;explicit&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;instrumentalness&#39;</span><span class="p">,</span> <span class="s1">&#39;liveness&#39;</span><span class="p">,</span> <span class="s1">&#39;loudness&#39;</span><span class="p">,</span> <span class="s1">&#39;speechiness&#39;</span><span class="p">,</span> <span class="s1">&#39;tempo&#39;</span><span class="p">,</span> <span class="s1">&#39;valence&#39;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">colu</span> <span class="ow">in</span> <span class="n">required_features</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">colu</span><span class="p">)</span>
+    <span class="n">cole</span> <span class="o">=</span> <span class="n">colu</span> <span class="o">+</span> <span class="s2">&quot;i&quot;</span>
+    <span class="n">regression_df</span> <span class="o">=</span> <span class="n">regression_df</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="n">colu</span><span class="p">,</span><span class="n">regression_df</span><span class="p">[</span><span class="n">colu</span><span class="p">]</span><span class="o">.</span><span class="n">cast</span><span class="p">(</span><span class="s2">&quot;float&quot;</span><span class="p">))</span>
+    <span class="n">regression_df</span> <span class="o">=</span> <span class="n">regression_df</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="n">colu</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">regression_df</span><span class="p">[</span><span class="n">colu</span><span class="p">],</span><span class="mi">2</span><span class="p">))</span>
+
+
+<span class="n">regression_df</span> <span class="o">=</span> <span class="n">regression_df</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;popularity&#39;</span><span class="p">,</span><span class="s1">&#39;acousticness&#39;</span><span class="p">,</span> <span class="s1">&#39;danceability&#39;</span><span class="p">,</span> <span class="s1">&#39;duration_ms&#39;</span><span class="p">,</span> <span class="s1">&#39;energy&#39;</span><span class="p">,</span> <span class="s1">&#39;explicit&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;instrumentalness&#39;</span><span class="p">,</span> <span class="s1">&#39;liveness&#39;</span><span class="p">,</span> <span class="s1">&#39;loudness&#39;</span><span class="p">,</span> <span class="s1">&#39;speechiness&#39;</span><span class="p">,</span> <span class="s1">&#39;tempo&#39;</span><span class="p">,</span> <span class="s1">&#39;valence&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -15485,7 +15321,202 @@ only showing top 20 rows
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Column&lt;b&#39;name&#39;&gt;
+<pre>acousticness
+danceability
+duration_ms
+energy
+explicit
+instrumentalness
+liveness
+loudness
+speechiness
+tempo
+valence
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> <span class="n">assembler</span> <span class="o">=</span> <span class="n">VectorAssembler</span><span class="p">(</span><span class="n">inputCols</span><span class="o">=</span><span class="n">required_features</span><span class="p">,</span>\
+                            <span class="n">outputCol</span><span class="o">=</span><span class="s1">&#39;features&#39;</span><span class="p">,</span><span class="n">handleInvalid</span><span class="o">=</span><span class="s1">&#39;skip&#39;</span><span class="p">)</span>
+    
+<span class="n">regressionfeatureddf</span> <span class="o">=</span> <span class="n">assembler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">regression_df</span><span class="p">)</span>
+
+<span class="n">regressionfeatureddf</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">&quot;features&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">regressionfeatureddf</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>+--------------------+
+|            features|
++--------------------+
+|[0.99000000953674...|
+|[0.0,0.7300000190...|
+|[1.0,0.4199999868...|
+|[0.99000000953674...|
+|[1.0,0.4699999988...|
+|[1.0,0.4699999988...|
+|[0.00999999977648...|
+|[0.94999998807907...|
+|[1.0,0.5799999833...|
+|[0.99000000953674...|
+|[0.0,0.6399999856...|
+|[0.99000000953674...|
+|[0.98000001907348...|
+|[0.97000002861022...|
+|[1.0,0.4699999988...|
+|[0.75,0.529999971...|
+|[0.99000000953674...|
+|[0.01999999955296...|
+|[0.07999999821186...|
+|[0.00999999977648...|
++--------------------+
+only showing top 20 rows
+
++----------+------------+------------+-----------+------+--------+----------------+--------+--------+-----------+------+-------+--------------------+
+|popularity|acousticness|danceability|duration_ms|energy|explicit|instrumentalness|liveness|loudness|speechiness| tempo|valence|            features|
++----------+------------+------------+-----------+------+--------+----------------+--------+--------+-----------+------+-------+--------------------+
+|       1.0|        0.99|        0.65|   163827.0|  0.19|     0.0|             0.0|    0.52|   -12.1|       0.17|  97.6|   0.69|[0.99000000953674...|
+|       1.0|         0.0|        0.73|   422087.0|   0.8|     0.0|             0.8|    0.13|   -7.31|       0.04| 128.0|   0.04|[0.0,0.7300000190...|
+|       1.0|         1.0|        0.42|   198627.0|  0.25|     0.0|             0.8|    0.23|  -11.47|       0.04|103.87|   0.48|[1.0,0.4199999868...|
+|       1.0|        0.99|        0.78|   195200.0|  0.06|     0.0|             0.0|    0.18|  -12.45|       0.06| 85.65|   0.49|[0.99000000953674...|
+|       0.0|         1.0|        0.47|   186173.0|  0.24|     0.0|            0.19|    0.19|   -9.71|       0.03| 78.78|   0.37|[1.0,0.4699999988...|
+|       0.0|         1.0|        0.47|   146840.0|  0.24|     0.0|            0.96|    0.15|  -18.72|       0.07|130.06|   0.62|[1.0,0.4699999988...|
+|       0.0|        0.01|        0.57|   476304.0|  0.75|     0.0|            0.87|    0.09|   -6.94|       0.04|126.99|   0.12|[0.00999999977648...|
+|       0.0|        0.95|        0.69|   150067.0|  0.22|     0.0|             0.0|    0.26|  -15.21|       0.85| 82.02|   0.41|[0.94999998807907...|
+|       0.0|         1.0|        0.58|   167213.0|  0.36|     0.0|            0.95|    0.17|  -14.57|       0.04|131.49|    0.7|[1.0,0.5799999833...|
+|       0.0|        0.99|        0.35|   285707.0|   0.4|     0.0|            0.92|    0.31|  -14.05|       0.04|111.27|   0.57|[0.99000000953674...|
+|       0.0|         0.0|        0.64|   304078.0|   1.0|     0.0|            0.48|     0.1|   -6.12|       0.06|124.02|   0.64|[0.0,0.6399999856...|
+|       0.0|        0.99|        0.45|   255520.0|  0.41|     0.0|            0.16|    0.29|  -10.47|       0.04| 67.27|   0.89|[0.99000000953674...|
+|       0.0|        0.98|        0.52|   258167.0|  0.43|     0.0|            0.11|    0.13|  -11.43|       0.05|102.58|   0.79|[0.98000001907348...|
+|       0.0|        0.97|        0.53|   277720.0|  0.32|     0.0|            0.02|     0.1|  -12.51|       0.04|118.56|   0.15|[0.97000002861022...|
+|       0.0|         1.0|        0.47|   177427.0|  0.53|     0.0|            0.87|    0.18|   -11.0|       0.05|136.57|   0.73|[1.0,0.4699999988...|
+|       0.0|        0.75|        0.53|   278813.0|  0.46|     0.0|            0.44|     0.1|  -12.15|       0.04|112.82|   0.49|[0.75,0.529999971...|
+|       0.0|        0.99|         0.4|   258160.0|  0.48|     0.0|            0.18|    0.33|  -11.89|       0.05| 65.49|   0.51|[0.99000000953674...|
+|       1.0|        0.02|        0.74|   215773.0|  0.43|     0.0|             0.0|    0.11|  -21.08|       0.04|140.01|   0.58|[0.01999999955296...|
+|       0.0|        0.08|        0.39|   774360.0|  0.81|     0.0|            0.92|    0.33|  -11.13|       0.11|161.32|   0.07|[0.07999999821186...|
+|       1.0|        0.01|        0.76|   324333.0|  0.36|     0.0|             0.0|     0.1|  -21.05|       0.17| 88.01|   0.45|[0.00999999977648...|
++----------+------------+------------+-----------+------+--------+----------------+--------+--------+-----------+------+-------+--------------------+
+only showing top 20 rows
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.ml.classification</span> <span class="kn">import</span> <span class="n">RandomForestClassifier</span>
+
+
+<span class="p">(</span><span class="n">trainingDF</span><span class="p">,</span> <span class="n">testDF</span><span class="p">)</span> <span class="o">=</span> <span class="n">regressionfeatureddf</span><span class="o">.</span><span class="n">randomSplit</span><span class="p">([</span><span class="mf">0.7</span><span class="p">,</span><span class="mf">0.3</span><span class="p">])</span>
+
+<span class="n">rfcAlgorithm</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">labelCol</span><span class="o">=</span><span class="s1">&#39;popularity&#39;</span><span class="p">,</span>\
+                                      <span class="n">featuresCol</span><span class="o">=</span> <span class="s1">&#39;features&#39;</span><span class="p">,</span>\
+                                      <span class="n">maxDepth</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="c1">#3. Train the algorithm to build the model and apply it on the test data set.</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">rfcAlgorithm</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">trainingDF</span><span class="p">)</span>
+<span class="n">predictions</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">testDF</span><span class="p">)</span>
+<span class="n">predictions</span><span class="o">.</span><span class="n">dtypes</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[29]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[(&#39;popularity&#39;, &#39;double&#39;),
+ (&#39;acousticness&#39;, &#39;float&#39;),
+ (&#39;danceability&#39;, &#39;float&#39;),
+ (&#39;duration_ms&#39;, &#39;float&#39;),
+ (&#39;energy&#39;, &#39;float&#39;),
+ (&#39;explicit&#39;, &#39;float&#39;),
+ (&#39;instrumentalness&#39;, &#39;float&#39;),
+ (&#39;liveness&#39;, &#39;float&#39;),
+ (&#39;loudness&#39;, &#39;float&#39;),
+ (&#39;speechiness&#39;, &#39;float&#39;),
+ (&#39;tempo&#39;, &#39;float&#39;),
+ (&#39;valence&#39;, &#39;float&#39;),
+ (&#39;features&#39;, &#39;vector&#39;),
+ (&#39;rawPrediction&#39;, &#39;vector&#39;),
+ (&#39;probability&#39;, &#39;vector&#39;),
+ (&#39;prediction&#39;, &#39;double&#39;)]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.ml.evaluation</span> <span class="kn">import</span> <span class="n">MulticlassClassificationEvaluator</span>
+
+<span class="n">evaluator</span> <span class="o">=</span> <span class="n">MulticlassClassificationEvaluator</span><span class="p">(</span><span class="n">labelCol</span><span class="o">=</span><span class="s1">&#39;popularity&#39;</span><span class="p">,</span>\
+                                              <span class="n">predictionCol</span><span class="o">=</span><span class="s1">&#39;prediction&#39;</span><span class="p">,</span>\
+                                              <span class="n">metricName</span><span class="o">=</span><span class="s1">&#39;accuracy&#39;</span><span class="p">)</span>
+<span class="n">accuracy</span> <span class="o">=</span> <span class="n">evaluator</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The accuracy of the model is &#39;</span><span class="p">,</span> <span class="n">accuracy</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The accuracy of the model is  0.8367858017802215
 </pre>
 </div>
 </div>
